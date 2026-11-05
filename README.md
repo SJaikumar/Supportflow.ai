@@ -1,4 +1,4 @@
-# SupportFlow AI — Stage 4.6 (Human Escalation) — AI Customer Support Automation
+# SupportFlow AI — Customer Support Automation
 
 **An AutoGen-powered customer support desk with policy-grounded answers, human approval, named-person escalations, customer history, and SLA monitoring.**
 
@@ -26,6 +26,31 @@ The required assignment uses **four AutoGen agents**, **Python**, **Streamlit**,
 | Ticket lifecycle | Staff can mark resolved, close and reopen tickets; unresolved human assignments and outstanding actions prevent premature closure |
 | Logging | Persistent tickets and agent traces; exportable ticket log (CSV) |
 | Theme | Light-first Streamlit UI with an optional dark mode |
+
+## Application Screenshots
+
+The following screenshots show SupportFlow AI's main features, including the customer portal, AI-assisted ticket resolution, human approval, and escalation management.
+
+### 1. Customer Dashboard
+![Customer Dashboard](screenshots/customer_dashboard.png)
+
+### 2. Support Agent Dashboard
+![Support Agent Dashboard](screenshots/Support_Agent_dashboard.png)
+
+### 3. Four-Agent AI Analysis
+![AI Analysis](screenshots/Fouragent_ai_analysis.png)
+
+### 4. Human-in-the-Loop Approval
+![Human Approval](screenshots/human_in_the_loop_approval.png)
+
+### 5. Human Escalation and Assignment
+![Escalation](screenshots/human_escalation_assignment.png)
+
+### 6. Resolved Ticket
+![Resolved Ticket](screenshots/resolved_ticket.png)
+
+### 7. Ticket Log
+![Ticket Log](screenshots/ticket_log.png)
 
 ## Architecture
 
