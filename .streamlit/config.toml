@@ -1,0 +1,23 @@
+[server]
+headless = true
+maxUploadSize = 5
+
+# On localhost Streamlit normally shows an upper-right Deploy button.
+# Viewer mode removes developer actions without disabling app controls.
+[client]
+toolbarMode = "viewer"
+
+[theme]
+base = "light"
+primaryColor = "#625CF5"
+backgroundColor = "#F7F8FD"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#172343"
+font = "sans-serif"
+baseRadius = "medium"
+showSidebarBorder = true
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F6F7FC"
+textColor = "#33415E"

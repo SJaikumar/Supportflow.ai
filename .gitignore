@@ -1,0 +1,44 @@
+# Secrets and environment overrides
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Python environment/cache
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Machine-local database, private uploads and generated indexes
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+data/
+logs/
+*.log
+faiss_index/
+
+# Local configuration/editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local test outputs
+reports/

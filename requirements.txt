@@ -1,0 +1,12 @@
+streamlit>=1.48,<2
+SQLAlchemy>=2.0,<3
+pandas>=2.1,<3
+Pillow>=10,<13
+pytest>=8,<10
+tzdata>=2024.1
+python-dotenv>=1.0,<2
+autogen-agentchat>=0.4.9,<0.8
+autogen-ext[openai]>=0.4.9,<0.8
+openai>=1.55,<3
+faiss-cpu>=1.8,<2
+numpy>=1.26,<3
