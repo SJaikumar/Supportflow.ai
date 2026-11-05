@@ -31,26 +31,32 @@ The required assignment uses **four AutoGen agents**, **Python**, **Streamlit**,
 
 The following screenshots show SupportFlow AI's main features, including the customer portal, AI-assisted ticket resolution, human approval, and escalation management.
 
+
+## Application Screenshots
+
+The following screenshots demonstrate SupportFlow AI's main features, including the customer portal, AI-assisted ticket resolution, human approval, escalation management, and ticket logging.
+
 ### 1. Customer Dashboard
-https://github.com/SJaikumar/Supportflow.ai/blob/main/screenshots/Customer_Dashboard.png
+![Customer Dashboard](screenshots/Customer_Dashboard.png)
 
 ### 2. Support Agent Dashboard
-![Support Agent Dashboard](screenshots/Support_Agent_dashboard.png)
+![Support Agent Dashboard](screenshots/Support_Agent_Dashboard.png)
 
 ### 3. Four-Agent AI Analysis
-![AI Analysis](screenshots/Fouragent_ai_analysis.png)
+![AI Analysis with Citations](screenshots/05_ai_analysis_citation.png)
 
 ### 4. Human-in-the-Loop Approval
-![Human Approval](screenshots/human_in_the_loop_approval.png)
+![Human Approval](screenshots/04_human_approval.png)
 
-### 5. Human Escalation and Assignment
-![Escalation](screenshots/human_escalation_assignment.png)
+### 5. Escalated Ticket
+![Escalated Ticket](screenshots/02_escalated_ticket.png)
 
 ### 6. Resolved Ticket
-![Resolved Ticket](screenshots/resolved_ticket.png)
+![Resolved Ticket](screenshots/01_resolved_ticket.png)
 
 ### 7. Ticket Log
-![Ticket Log](screenshots/ticket_log.png)
+![Ticket Log](screenshots/03_ticket_log.png)
+
 
 ## Architecture
 
