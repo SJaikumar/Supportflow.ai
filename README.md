@@ -257,14 +257,4 @@ README.md            This guide
 **Academic assignment:** AI Customer Support Automation (four-agent AutoGen support desk).
 
 
-## GitHub Repository
 
-The complete SupportFlow AI application, source code,
-documentation, tests, and screenshots are available at:
-
-https://github.com/SJaikumar/Supportflow.ai
-
-The repository includes all files required to install,
-run, test, and demonstrate the application.
-
-See [GitHub upload instructions](docs/GITHUB_SUBMISSION.md).
