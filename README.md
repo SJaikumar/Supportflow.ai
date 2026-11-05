@@ -27,10 +27,6 @@ The required assignment uses **four AutoGen agents**, **Python**, **Streamlit**,
 | Logging | Persistent tickets and agent traces; exportable ticket log (CSV) |
 | Theme | Light-first Streamlit UI with an optional dark mode |
 
-## Application Screenshots
-
-The following screenshots show SupportFlow AI's main features, including the customer portal, AI-assisted ticket resolution, human approval, and escalation management.
-
 
 ## Application Screenshots
 
@@ -91,6 +87,13 @@ The Python application runs each AutoGen agent in an explicit sequence; it does 
 - **Environment / tests:** python-dotenv, pytest
 
 The authoritative list of Python package versions/ranges is **[`requirements.txt`](requirements.txt)**. Do not upload locally installed `site-packages` or your `.venv` directory.
+
+## Human Escalation and Assignment
+
+Staff can now explicitly escalate a ticket to another authorized person, provide a reason, and track ownership.
+From **All Tickets**, choose **Escalated** to find AI-flagged cases. Open a ticket and use **Escalation & assignment** to assign it to Maya or Admin. The assignee can acknowledge, reassign, and complete the handoff. An unfinished handoff blocks manual ticket closure, and refund approval remains a separate restricted action.
+
+See [Escalation and ticket lifecycle](docs/ESCALATION_AND_TICKETS.md) for role permissions and the complete demonstration flow.
 
 ## Installation (Windows PowerShell)
 
@@ -187,16 +190,19 @@ Offline tests cover ticket closure/reopening, ticket and refund workflows, agent
 
 **Release test result:** All **63 offline tests passed** on this Stage 4.6 submission package (2026-11-05). This does **not** establish that your local browser layout or live OpenAI calls succeed. Re-run the tests and capture screenshots from your own running application before submitting.
 
-## Screenshots for submission
+## Submission Evidence
 
-Add **actual screenshots from your running application** to `screenshots/` before submitting. The assignment requests at least:
+The repository includes screenshots demonstrating:
 
-1. A **Resolved** ticket with a customer-visible response.
-2. An **Escalated** ticket showing its escalation reason.
-3. The **Ticket Log** / ticket list, including export support.
-4. Two additional cases (recommended: **human approval** and **AI policy citations**).
+- Customer and Support Agent Dashboards
+- Four-Agent AutoGen Analysis with Policy Citations
+- Human-in-the-Loop Approval
+- Human Escalation and Assignment
+- Resolved Customer Support Ticket
+- Ticket Log with Complaint History and Escalation Details
 
-See the [Screenshot Checklist](screenshots/README.md). **Screenshots are not included**; you must add genuine captures from the working app. Static mockups are not submission evidence.
+All screenshots are available in the
+[screenshots](screenshots/) folder.
 
 ## Known limitations and safety
 
@@ -244,13 +250,14 @@ From **All Tickets**, choose **Escalated** to find AI-flagged cases. Open a tick
 
 See [Escalation and ticket lifecycle](docs/ESCALATION_AND_TICKETS.md) for role permissions and the complete demonstration flow.
 
-## Publishing to GitHub
+## GitHub Repository
 
-1. Add actual screenshots in `screenshots/`.
-2. Double-check that `.env`, `.venv/`, `data/`, local databases and private uploads are **not** included.
-3. Create an empty public repository called `supportflow-ai` under your GitHub account.
-4. Upload the **contents of this folder**, keeping the structure intact (or push through Git in VS Code).
-5. Confirm `README.md`, `requirements.txt`, `app.py`, `supportflow/`, `knowledge_base/`, `tests/` and `docs/` appear at the repository root.
-6. Share the repository URL and screenshots for assessment.
+The complete SupportFlow AI application, source code,
+documentation, tests, and screenshots are available at:
+
+https://github.com/SJaikumar/Supportflow.ai
+
+The repository includes all files required to install,
+run, test, and demonstrate the application.
 
 See [GitHub upload instructions](docs/GITHUB_SUBMISSION.md).
