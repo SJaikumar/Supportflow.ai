@@ -10,6 +10,20 @@ SupportFlow AI helps an e-commerce support team classify customer complaints, re
 
 The required assignment uses **four AutoGen agents**, **Python**, **Streamlit**, a local **knowledge base**, escalation logic, and an exportable ticket log. This project implements those features and demonstrates several optional enhancements.
 
+## GitHub Repository
+
+The complete SupportFlow AI application, source code,
+documentation, tests, and screenshots are available at:
+
+https://github.com/SJaikumar/Supportflow.ai
+
+The repository includes all files required to install,
+run, test, and demonstrate the application.
+
+Customer submits complaint → Four AutoGen agents analyze → Support agent reviews → Human escalation or approval when required → Customer receives response → Ticket resolved and closed.
+
+See [GitHub upload instructions](docs/GITHUB_SUBMISSION.md).
+
 ## Key features
 
 | Area | Implementation |
@@ -230,7 +244,7 @@ app.py
 supportflow/         Application, AutoGen, services, database, UI and background worker
 knowledge_base/      Four example company policy documents
 scripts/             Optional OpenAI connection diagnostic
-screenshots/         Real UI screenshots to be added before submission
+screenshots/         Application screenshots demonstrating key features
 docs/                Architecture, demo, tests and submission checklist
 tests/               Automated tests
 .streamlit/          Streamlit theme and app configuration
@@ -242,13 +256,6 @@ README.md            This guide
 
 **Academic assignment:** AI Customer Support Automation (four-agent AutoGen support desk).
 
-
-## Staff escalation and assignment (Stage 4.6)
-
-Staff can now explicitly escalate a ticket to another authorized person, provide a reason, and track ownership.
-From **All Tickets**, choose **Escalated** to find AI-flagged cases. Open a ticket and use **Escalation & assignment** to assign it to Maya or Admin. The assignee can acknowledge, reassign, and complete the handoff. An unfinished handoff blocks manual ticket closure, and refund approval remains a separate restricted action.
-
-See [Escalation and ticket lifecycle](docs/ESCALATION_AND_TICKETS.md) for role permissions and the complete demonstration flow.
 
 ## GitHub Repository
 
