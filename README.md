@@ -32,7 +32,7 @@ The required assignment uses **four AutoGen agents**, **Python**, **Streamlit**,
 The following screenshots show SupportFlow AI's main features, including the customer portal, AI-assisted ticket resolution, human approval, and escalation management.
 
 ### 1. Customer Dashboard
-![Customer Dashboard](screenshots/customer_dashboard.png)
+https://github.com/SJaikumar/Supportflow.ai/blob/main/screenshots/Customer_Dashboard.png
 
 ### 2. Support Agent Dashboard
 ![Support Agent Dashboard](screenshots/Support_Agent_dashboard.png)
